@@ -1,0 +1,47 @@
+
+body.dark-theme {
+  background-color: #000000; 
+  color: #ffffff; 
+}
+
+body.dark-theme h1, 
+body.dark-theme h2,
+body.dark-theme h3, 
+body.dark-theme h5, 
+body.dark-theme h6, 
+body.dark-theme p, 
+body.dark-theme span, 
+body.dark-theme a {
+  color: black; 
+}
+body.dark-theme h4{
+  color:white;
+}
+
+body.dark-theme button {
+  background-color: #333333; 
+  color: #ffffff; 
+  border: 1px solid #ffffff;
+}
+
+body.dark-theme button:hover {
+  color: #333333; 
+  background-color: #ffffff; 
+}
+body.dark-theme input, 
+body.dark-theme textarea {
+  background-color: #333333; 
+  color: #ffffff; 
+  border: 1px solid #ffffff;
+}
+
+body.dark-theme a {
+  color: white; 
+}
+  body {
+    background-color: white; 
+    color: #000000; 
+  }
+  
+
+  

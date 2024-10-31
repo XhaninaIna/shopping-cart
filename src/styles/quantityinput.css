@@ -1,0 +1,60 @@
+/* quantityinput.css */
+
+.quantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  /* overflow: hidden;  */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.quantity-button {
+  background-color: #007bff; /* Primary blue color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  padding: 0.5rem 0.75rem; /* Padding for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transition for smooth hover effect */
+}
+
+.quantity-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.quantity-button:active {
+  transform: translateY(1px); /* Push down effect on click */
+}
+
+.quantity-field {
+  width: 60px; /* Fixed width for input field */
+  text-align: center; /* Center text */
+  border: none; /* Remove default border */
+  outline: none; /* Remove outline on focus */
+  padding: 0.5rem; /* Padding inside the input */
+  font-size: 1rem; /* Font size */
+  border-left: 1px solid #ddd; /* Border to separate from button */
+  border-right: 1px solid #ddd; /* Border to separate from button */
+  font-family: "Arial", sans-serif; /* Font family */
+}
+
+.quantity-field::placeholder {
+  color: #aaa; /* Placeholder color */
+}
+
+.quantity-button:focus,
+.quantity-field:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .quantity-input {
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  .quantity-field {
+    width: 70px; /* Slightly wider input on smaller screens */
+  }
+}

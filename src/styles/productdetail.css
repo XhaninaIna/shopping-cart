@@ -1,0 +1,99 @@
+/* Container for the product detail page */
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f9fa; /* Light background for better contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  /* Image styling */
+  .product-detail-image {
+    width: 100%;
+    max-width: 500px; /* Responsive image size */
+    border-radius: 8px; /* Rounded corners */
+    object-fit: cover; /* Ensures the image covers its container */
+  }
+  
+  /* Product information styling */
+  .product-detail-info {
+    text-align: center; /* Center-align the text */
+    margin-top: 20px;
+  }
+  
+  .product-detail-name {
+    font-size: 2rem; /* Large font size for the product name */
+    color: #343a40; /* Dark gray color */
+    margin: 10px 0;
+  }
+  
+  .product-detail-description {
+    font-size: 1rem; /* Normal font size for description */
+    color: #6c757d; /* Medium gray color */
+    margin: 10px 0;
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  .product-detail-price {
+    font-size: 1.5rem; /* Price larger than description */
+    color: #28a745; /* Green color for price */
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Button styling */
+  .add-to-cart-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-top: 15px; /* Space above button */
+  }
+  
+  /* Button hover effect */
+  .add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  .back-to-cart-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-top: 15px; /* Space above button */
+    margin-left:20px;
+  }
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .product-detail {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .product-detail-image {
+      max-width: 100%; /* Image takes full width on small screens */
+    }
+  
+    .product-detail-info {
+      margin-top: 10px; /* Reduce space on smaller screens */
+    }
+  
+    .product-detail-name {
+      font-size: 1.5rem; /* Smaller font size for the product name */
+    }
+  
+    .product-detail-price {
+      font-size: 1.25rem; /* Smaller price font size */
+    }
+  }
+  
