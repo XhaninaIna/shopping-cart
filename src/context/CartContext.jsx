@@ -54,7 +54,6 @@ export const CartProvider = ({ children }) => {
   );
 };
 
-// Combined Provider
 export const AppProvider = ({ children }) => {
   return (
     <ThemeProvider>

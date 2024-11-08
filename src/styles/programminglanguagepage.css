@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #3b82f6;
+    --secondary-color: #f3f4f6;
+    --error-color: #ef4444;
+    --text-color: black;
+    --button-hover-color: #2563eb;
+    --input-border-color: #e5e7eb;
+    --pagination-btn-hover: #2563eb;
+  }
+  
+  .programming-languages-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .loading-text {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  .error-text {
+    color: var(--error-color);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .pagination-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .pagination-btn:disabled {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+  }
+  
+  .pagination-btn:hover {
+    background-color: var(--pagination-btn-hover);
+  }
+  
+  input,
+  select,
+  button {
+    border-radius: 5px;
+    padding: 8px 12px;
+    border: 1px solid var(--input-border-color);
+    font-size: 14px;
+  }
+  
+  input:focus,
+  select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  button:disabled {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+  }
+  
